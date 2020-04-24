@@ -1,0 +1,129 @@
+@import url("font-awesome/css/font-awesome.min.css");
+
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+   -webkit-font-smoothing: antialiased;
+}
+
+body {
+  position: relative;
+  height: 800px;
+  min-height: 500px;
+  width: 100%;
+  background: #161415 url(../images/linen.png);
+  text-align: center;
+  overflow: hidden;
+}
+
+body:before {
+   content: '';
+   display: inline-block;
+   vertical-align: middle;
+   height: 100%;
+}
+
+body .banner {
+   display: inline-block;
+   vertical-align: middle;
+   margin: auto;
+   width: 85%;
+   padding-bottom: 40px;
+   padding-top: 40px;
+   text-align: center;
+}
+
+body .banner-text { width: 100%; }
+
+body .banner-text h1 {
+   overflow: hidden;
+   white-space: nowrap;
+   font: 90px/1.1em 'opensans-bold', sans-serif;
+   color: #fff;
+   letter-spacing: -2px;
+   margin: 0 auto 18px auto;
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   animation:
+    typing 3.7s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* Animation for typing */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.blinkCursor {
+  animation-name: blinkCursor;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1,0,0,1);
+  animation-duration: 0.85s;
+  display: inline-block;
+  width: 4px;
+  height: 75px;
+  margin-left: 7px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, .5);
+  background: rgba(255, 255, 255, 1.0);
+}
+
+@keyframes blinkCursor {
+  from { opacity: 1.0 } to { opacity: 0.0 }
+}
+
+body .banner-text h3 {
+   font: 18px/1.9em 'librebaskerville-regular', serif;
+   color: #A8A8A8;
+   margin: 0 auto;
+   width: 70%;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+}
+
+body .banner-text h3 span,
+body .banner-text h3 a {
+   color: #fff;
+}
+
+body .banner-text hr {
+   width: 60%;
+   margin: 18px auto 24px auto;
+   border-color: #2F2D2E;
+   border-color: rgba(150, 150, 150, .1);
+}
+
+body .social {
+   margin: 24px 0;
+   padding: 0;
+   font-size: 30px;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+
+body .social li {
+   display: inline-block;
+   margin: 0 15px;
+   padding: 0;
+}
+
+body .social li a { color: #fff; }
+body .social li a:hover { color: #11ABB0; }
+
+hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 30px; height: 0; }
+
+footer {
+  font: 12px/1.9em 'opensans-bold', sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  color: #fff;
+}
