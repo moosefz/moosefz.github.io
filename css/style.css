@@ -1,5 +1,6 @@
 @import url("font-awesome/css/font-awesome.min.css");
 
+/* Whole Page Elements */
 *,
 *:before,
 *:after {
@@ -13,6 +14,7 @@ html {
    -webkit-font-smoothing: antialiased;
 }
 
+/* Controls body wrapper and background elements. Centers headers */
 body {
   position: relative;
   height: 650px;
@@ -30,6 +32,7 @@ body:before {
    height: 100%;
 }
 
+/* Main banner */
 body .banner {
    display: inline-block;
    vertical-align: middle;
@@ -41,6 +44,7 @@ body .banner {
 
 body .banner-text { width: 100%; }
 
+/* Animation control for blinkCursor and text formatting */
 body .banner-text h1 {
    overflow: hidden;
    white-space: nowrap;
@@ -54,7 +58,7 @@ body .banner-text h1 {
     blink-caret .75s step-end infinite;
 }
 
-/* Animation for typing */
+/* Animation for typing effect */
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
@@ -97,6 +101,7 @@ body .banner-text hr {
    border-color: rgba(150, 150, 150, .1);
 }
 
+/* All Social Media Links */
 body .social {
    margin: 24px 0;
    padding: 0;
@@ -113,8 +118,16 @@ body .social li {
 body .social li a { color: #fff; }
 body .social li a:hover { color: #11ABB0; }
 
-hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 30px; height: 0; }
+/* break line below main header and above social media links */
+hr {
+  border: solid #E3E3E3;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 11px 0 30px;
+  height: 0;
+}
 
+/* Footer style */
 footer {
   font: 12px/1.9em 'opensans-bold', sans-serif;
   position: fixed;
