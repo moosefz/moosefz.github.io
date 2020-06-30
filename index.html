@@ -2,14 +2,15 @@
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-  	<title>Moose Fawaz : Developer</title>
-  	<meta name="description" content="">
-  	<meta name="author" content="">
-  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <link rel="stylesheet" href="css/style.css">
+<head>
+    <meta charset="utf-8">
+    <title>Moose Fawaz : Developer</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/fonts.css">
 
     <!--Favicon specifications -->
@@ -18,41 +19,72 @@
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="shortcut icon" href="favicon.png">
 
+    <!-- FontAwesome and BootStrap CDNs (CSS/JS) -->
     <script src="https://kit.fontawesome.com/37a55e2025.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
 
-  </head>
+<!-- Body. All relevant headers below -->
+<body>
+    <div class="container">
+        <div class="banner-text">
+            <h1 style="font-size:5.5vw;">I'm Mustafa Fawaz<span class="blinkCursor"
+                    style="height: 5.0vw; width: 0.32vw;"></span></h1>
+            <hr class="horizon-rule" />
 
-  <!-- Body. All relevant headers below -->
-  <body>
-    <div class="banner">
-       <div class="banner-text">
-          <h1 style="font-size:5.5vw;">I'm Mustafa Fawaz<span class="blinkCursor" style="height: 5.0vw; width: 0.32vw;"></span></h1>
-            <hr />
-          <h3>Aspiring <span>developer</span>, experienced Project<span> Manager</span>
-          and team <span>leader</span>.<br>
-          Let's connect.</h3>
-          <hr />
+            <h3>Aspiring <span>Developer</span>, experienced Project<span> Manager</span>
+                and Team <span>Leader</span>.<br>
+                Let's connect.</h3>
+            <hr class="horizon-rule" />
 
-          <!-- All social media links -->
-          <ul class="social">
-             <li><a href="https://www.facebook.com/moosefawaz" target="_blank"><i class="fa fa-facebook"></i></a></li>
-             <li><a href="https://www.twitter.com/moosefawaz" target="_blank"><i class="fa fa-twitter"></i></a></li>
-             <li><a href="https://www.linkedin.com/in/mustafafawaz" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-             <li><a href="https://github.com/moosefz" target="_blank"><i class="fa fa-github"></i></a></li>
-             <li><a href="download/MustafaFawaz.pdf" target="_blank"><i class="fa fa-file-text-o"></i></a></li>
-          </ul>
-       </div>
+            <!-- All social media links -->
+            <ul class="social" style="padding-left: 0px;">
+                <li><a href="https://www.facebook.com/moosefawaz" target="_blank"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li><a href="https://www.twitter.com/moosefawaz" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/mustafafawaz" target="_blank"><i
+                            class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/moosefz" target="_blank"><i class="fa fa-github"></i></a></li>
+                <li><a href="download/MustafaFawaz.pdf" target="_blank"><i class="fa fa-file-text-o"></i></a></li>
+            </ul>
+        </div>
+
+        <hr class="horizon-rule" />
+
+        <h1 class="project-header">Current Projects</h1>
+
+        <!-- All Project Cards Here  -->
+        <div class="project-container">
+            <div class="content">
+                <a class="card" href="https://weather-wa-mfz.herokuapp.com/" target="_blank">
+                    <div class="icon"><i class="fas fa-cloud-sun-rain"></i></div>
+                    <p class="title">Weather WA</p>
+                    <p class="text">Current & 6-day Forecast by Location</p>
+                </a>
+
+                <a class="card" href="https://socketmessenger.herokuapp.com" target="_blank">
+                    <div class="icon"><i class="far fa-comments"></i></div>
+                    <p class="title">IO Messenger</p>
+                    <p class="text">Message and Chat via Socket.io</p>
+                </a>
+
+                <a class="card" href="https://github.com/moosefz/leetcode-hackerrank" target="_blank">
+                    <div class="icon"><i class="fas fa-code"></i></div>
+                    <p class="title">Leetcode & HR</p>
+                    <p class="text">Leetcode & Hackerrank Solutions</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer-container">
+            Copyright © 2020 - Designed by Mustafa Fawaz
+        </footer>
+
     </div>
-
-    <div class="project-container">
-      
-    </div>
-
-   <!-- Footer -->
-   <footer>
-        Copyright © 2020 - Designed by Mustafa Fawaz
-   </footer>
-
- </body>
+</body>
 
 </html>
