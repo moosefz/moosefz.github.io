@@ -121,7 +121,7 @@ body {
  
  .card {
     width: 100%;
-    max-width: 220px;
+    max-width: 200px;
     min-width: 200px;
     height: 200px;
     background-color: #292929 !important;
@@ -164,7 +164,7 @@ body {
     width: 100%;
     margin: 0;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
     color: white;
     font-weight: 600;
     text-transform: uppercase;
@@ -176,7 +176,7 @@ body {
     margin: 0 auto;
     font-size: 13px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     color: white;
     font-weight: 200;
     letter-spacing: 2px;
@@ -186,7 +186,7 @@ body {
  }
  
  .card:hover {
-    height: 220px;
+    height: 225px;
     text-decoration: none;
  }
  
